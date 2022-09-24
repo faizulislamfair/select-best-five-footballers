@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Five Footballers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container-fluid bg-secondary top-banner text-white pt-5">
+            <h1 class="text-center pt-5">Best Five Footballers</h1>
+        </div>
+    </header>
+
+
+    <main class="bg-dark py-5">
+        <div class="container-fluid">
+            <div class="row pt-5 mx-auto">
+                <div class="col-8 mx-auto card-buttons">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card">
+                                <img src="./images/trent.jpg" class="card-img-top" alt="...">
+                                <div class="card-body mx-auto">
+                                    <h5 id="trent" class="card-title text-center">Trent A. Arnold</h5>
+                                    <button id="btn-post1" class="btn btn-primary ">Select</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="./images/van_dijk.jpg" class="card-img-top" alt="...">
+                                <div class="card-body mx-auto">
+                                    <h5 id="van_dijk" class="card-title">Van Dijk</h5>
+                                    <button id="btn-post2" class="btn btn-primary">Select</button>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="./images/neymar.jpg" class="card-img-top" alt="...">
+                                <div class="card-body mx-auto">
+                                    <h5 id="neymar" class="card-title">Neymar Jr.</h5>
+                                    <button id="btn-post3" class="btn btn-primary">Select</button>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="./images/messi.jpg" class="card-img-top" alt="...">
+                                <div class="card-body mx-auto">
+                                    <h5 id="messi" class="card-title">Lionel Messi</h5>
+                                    <button id="btn-post4" class="btn btn-primary">Select</button>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="./images/salah.jpg" class="card-img-top" alt="...">
+                                <div class="card-body mx-auto">
+                                    <h5 id="salah" class="card-title">Mohammad Salah</h5>
+                                    <button id="btn-post5" class="btn btn-primary">Select</button>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="./images/bruyne.jpg" class="card-img-top" alt="...">
+                                <div class="card-body mx-auto">
+                                    <h5 id="bruyne" class="card-title">K. De Bruyne</h5>
+                                    <button id="btn-post6" class="btn btn-primary">Select</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="text-center text-white bg-secondary py-5">
+                        <h3><u>Selected-V</u></h3>
+                        <div class="container d-flex justify-content-around">
+                            <ol id="list-container" class="text-center">
+
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="text-center mt-5 pt-5 bg-secondary py-5 text-white">
+                        <h3><u>Budget</u></h3> <br>
+
+                        <div class="text-center d-inline-flex">
+                            <h5>Per Player</h5> &nbsp;&nbsp; <input id="per-player" type="text">
+                        </div>
+                        <br>
+                        <br>
+                        <button id="calculate" class="btn btn-primary">Calculate</button>
+                        <br> <br>
+                        <div class="d-flex flox-row justify-content-evenly">
+                            <h4>
+                                Player Expenses &nbsp; $<span id="player-expenses"></span>
+                            </h4>
+
+                        </div>
+                        <br>
+                        <div class="text-center d-inline-flex">
+                            <h5>Manager</h5> &nbsp;&nbsp;<input id="manager-field" type="text">
+                        </div>
+                        <br> <br>
+                        <div class="text-center d-inline-flex">
+                            <h5>Coach</h5> &nbsp;&nbsp; <input id="coach-field" type="text">
+                        </div>
+                        <br> <br>
+                        <button id="calculate-total" class="btn btn-primary">Calculate Total</button> <br> <br>
+                        <div class="d-flex flox-row justify-content-evenly">
+                            <h4>
+                                Total &nbsp; <span class="text-warning"> $ </span><span id="total-expenses"
+                                    class="text-warning"></span>
+                            </h4>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <hr>
+    <footer class="bg-dark text-center text-white py-5">
+        Copyright @ 2022 All Rights Reserved.
+
+    </footer>
+
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

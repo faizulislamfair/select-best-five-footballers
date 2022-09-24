@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+
+.top-banner {
+    height: 280px;
+}
+
+
+h1 {
+    font-size: 56px;
+}
+
+
+.card-buttons button {
+    width: 120px;
+}
+
+
+
+footer {
+    font-size: 24px;
+
+}
